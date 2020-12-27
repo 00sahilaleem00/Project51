@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    color:#189999
+}
+
+body{
+    background-color:#ffee98;
+    margin: 0px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#74aeff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:#ffffff;
+    padding:15px;
+}
+
+.bodyimg{
+    position:relative;
+    text-align: center;
+}
+
+.bodyimg img{
+    opacity: 0.5;
+}
+
+.imagetext{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: larger;
+    font-weight: 1000;
+    color:#123499;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.origami{
+    border: 2px solid #ffff66;
+    border-radius: 5px;
+    background-color: #ffeebb;
+    width: 310px;
+    font-family: fantasy;
+    padding:25px;
+    margin:25px;
+}
